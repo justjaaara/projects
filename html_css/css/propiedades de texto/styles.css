@@ -1,0 +1,12 @@
+p {
+    color:red;
+    font-family: 'Tahoma';
+    font-size: 13px;
+    font-weight: bold;
+    font-style: italic;
+    text-align:justify;
+    text-decoration: dashed ;
+    line-height: 2.5;
+    letter-spacing: 10px;
+    text-transform: capitalize  ;
+}

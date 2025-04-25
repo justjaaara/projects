@@ -1,0 +1,35 @@
+div {
+    background: red;
+    width: 200px;
+    margin:auto;
+    text-align: center;
+}
+
+div {
+    /* Se puede utilizar ambas el border solo es short-hand y permite ahorrar escribir las 3 */
+    border-width: 5px;
+    border-style:solid;
+    border-color: rgb(0, 0, 0);
+    
+    border: 5px solid black;
+    /* Se puede especificar por cada esquina, general o en un shorthand */
+    border-top-left-radius:8px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 5px;
+
+    /* Se puede especificar en orden de manecilals de reloj: */
+    border-radius: 8px 10px 8px 5px;
+
+    /* Se puede especificar por diagonal izquierda arriba hacia abajo derecha y el segundo
+    es el otro caso */
+
+    border-radius: 10px 20px;
+
+    /* Ambas funcionan y, ambas son iguales, solo ahorra escritura y aplica para todas las direcciones */
+    border-top-width: 10px;
+    border-top-style: dotted;
+    border-top-color:yellow;
+
+    border-top: 10px dotted yellow
+}

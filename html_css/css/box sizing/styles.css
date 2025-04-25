@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+}
+
+.box{
+    width:100px ;
+    height: 100px;
+    background: red;
+    margin: 10px;
+}
+
+/* El border-box content-box (default) hace que SOLO el CONTENIDO cumpla la regla de que el tamaño sea del especificado, en este caso 100 x 100 px pero el resto de la caja puede seguir sumando y quede más grande por los bordes, padding.*/
+.box-default{
+    padding:25px;
+    border: 10px solid black;
+}
+
+/* El border-box solo ajusta todas las props para que el tamaño de la caja total sea el especificado, en este caso es el de 100 x 100 px */
+.box-new{
+    box-sizing: border-box;
+    padding: 25px;
+    border: 10px solid black;
+}
